@@ -1,0 +1,8 @@
+rm -rf _site || exit 0;
+mkdir _site;
+cd _site
+git clone https://www.github.com/jmhardison/braceplace-biz --branch gh-pages --single-branch .
+cd ..
+
+bundle exec jekyll build
+#temp disabled # bundle exec htmlproof ./_site --disable-external
