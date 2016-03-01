@@ -5,4 +5,4 @@ git clone https://www.github.com/jmhardison/braceplace-biz --branch gh-pages --s
 cd ..
 
 bundle exec jekyll build
-bundle exec htmlproof ./_site --disable-external
+#temp disabled # bundle exec htmlproof ./_site --disable-external
