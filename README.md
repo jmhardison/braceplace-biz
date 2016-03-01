@@ -1,12 +1,16 @@
+[![Build Status](https://travis-ci.org/jmhardison/braceplace-biz.svg?branch=master)](https://travis-ci.org/jmhardison/braceplace-biz)
+
 # braceplace-biz
 The Brace Place website.
 
 
 
 Credits:
-    Spectral by HTML5 UP
-    html5up.net | @n33co
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    
+    Base Theme:
+    		Spectral by HTML5 UP
+    		html5up.net | @n33co
+    		Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 	
     Demo Images:
 		Unsplash (unsplash.com)
