@@ -4,5 +4,7 @@ cd _site
 git clone https://www.github.com/jmhardison/braceplace-biz --branch gh-pages --single-branch .
 cd ..
 
+bundle install
+
 bundle exec jekyll build
 #temp disabled # bundle exec htmlproof ./_site --disable-external
