@@ -138,5 +138,34 @@ layout: landing
 							</div>
 						</section>
                     </section>
+                   
+                    <!--map section-->
+                    <section>
+                        <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+							<div id="map">
+                                <script>
+                                    var map = L.map('map', {
+                                        scrollWheelZoom: false,
+                                        dragging: false,
+                                        closePopupOnClick: false,
+                                        touchZoom: false,
+                                        doubleClickZoom: false,
+                                        keyboard: false,
+                                        attributionControl: false,
+                                        zoomControl: false 
+                                    }).setView([37.081374, -94.530006], 16);
+                                    
+                                    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+                                    attribution: '&copy; MapBox',
+                                    maxZoom: 16,
+                                    minZoom: 16,
+                                    id: 'jhardison.pa3pj6l1',
+                                    accessToken: 'pk.eyJ1IjoiamhhcmRpc29uIiwiYSI6ImNpbGFiNXZ6ZzAzOXV0dWx4dHVxaWo1enUifQ.q_08s1WBYISlcjdVlnVyKw'
+                                    }).addTo(map);
+                                    var marker = L.marker([37.081374, -94.530006]).addTo(map).bindPopup("<b><font color=black>The Brace Place</font></b><br /><b><font color=black>1505 W. 10th, Suite A</font></b><br /><b><font color=black>Joplin, MO</font></b><br /><br /><b><font color=black>Located in the same building as Domino’s Pizza.</font></b>").openPopup();                             
+                                </script>
+                            </div>			
+					</section>
      
 					
