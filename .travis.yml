@@ -3,7 +3,7 @@ rvm:
 - 2.1
 
 # Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
+# the `install` step will run `bundle install` by default
 install:
   - gem install jekyll html-proofer sass jekyll-sitemap jekyll-paginate json
 
