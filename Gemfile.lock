@@ -71,6 +71,7 @@ DEPENDENCIES
   jekyll
   jekyll-paginate
   jekyll-sitemap
+  json
   sass
 
 BUNDLED WITH
